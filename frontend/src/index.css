@@ -1,0 +1,116 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;     /* Horizontal center */
+  align-items: center;          /* Vertical center */
+}
+
+/* Center Wrapper */
+.page-container {
+  width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 4px rgba(59,130,246,0.4);
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #3b82f6;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+/* List container (Employees & Teams page) */
+.list-page {
+  width: 600px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.add-btn {
+  background: #10b981;
+}
+
+.add-btn:hover {
+  background: #059669;
+}
+
+/* List items */
+ul {
+  margin-top: 15px;
+}
+
+li {
+  padding: 12px;
+  background: #f9fafb;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  width: auto;
+  padding: 6px 12px;
+  background: #ef4444;
+}
+
+li button:hover {
+  background: #dc2626;
+}
+.error-box {
+  /* background: #fee2e2; */
+  color: #b91c1c;
+  padding: 12px;
+  /* margin-bottom: 15px; */
+  /* border-radius: 6px;
+  border-left: 4px solid #dc2626; */
+  font-size: 14px;
+}
